@@ -1,0 +1,15 @@
+body {
+     margin: 0px 20px 0px 20px;
+}
+
+#header {
+    height: 100px;
+    background-color: rgba(0,0,190, 0.6);
+}
+
+#testText {
+    position: absolute;
+    left: 50%;
+    top: 1%;
+    color: 
+}
