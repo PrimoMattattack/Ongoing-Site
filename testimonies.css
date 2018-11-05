@@ -1,15 +1,123 @@
+html {
+background-color: white;
+  
+}
+
+main {
+}
+
 body {
-     margin: 0px 20px 0px 20px;
+    margin: 0px 480px 0px 480px;
+    background-color: #FEFEFE;
+    border-style: solid;
+    border-top-right-radius: 20%;
+    border-top-left-radius: 20%;
+}
+
+.pic {
+}
+
+.header{
+ 
+}
+
+.speech-bubble {
+	position: relative;
+	background: #00aabb;
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 31px solid transparent;
+	border-left-color: #00aabb;
+	border-right: 0;
+	border-bottom: 0;
+	margin-top: -15.5px;
+	margin-right: -31px;
+}
+
+.speech-bubbleB {
+	position: relative;
+	background: rgb(255, 0, 0);
+	border-radius: .4em;
+}
+
+.speech-bubbleB:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 31px solid transparent;
+	border-right-color: rgb(255, 0, 0);
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: -15.5px;
+	margin-left: -31px
 }
 
 #header {
-    height: 100px;
-    background-color: rgba(0,0,190, 0.6);
+    background-color: rgba(255,255,255,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+#headerPic {
+    width: 8%;
+    border-style: hidden;
+    border-radius: 50%;
 }
 
 #testText {
-    position: absolute;
-    left: 50%;
-    top: 1%;
-    color: 
+    font-family: monospace;
+    font-size: 25px;
+}
+
+#contentBoxLeft {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+#boxA {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: 25%;
+    border-radius: 10%;
+    /*padding: 2%;*/
+    align-items: center;
+}
+
+#contentBoxRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: right;
+    padding: 5%;
+}
+
+#boxB {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: center;
+    width: 33%;
+    height: 25%;
+    border-radius: 10%;
+    /*padding: 2%;*/
+}
+
 }
